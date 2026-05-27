@@ -10,6 +10,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2602.08355-b31b1b.svg)](https://arxiv.org/abs/2602.08355)
 [![GitHub](https://img.shields.io/badge/GitHub-E--VAds__Benchmark-black?logo=github)](https://github.com/TaobaoTmall-AlgorithmProducts/E-VAds_Benchmark)
 [![Dataset](https://img.shields.io/badge/🤗%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/TaobaoTmall-AlgorithmProducts/E-VAds_Benchmark)
+[![Project Page](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-E--VAds.github.io-blue?logo=github)](https://tennine2077.github.io/E-VAds.github.io/)
 [![Model](https://img.shields.io/badge/🤗%20HuggingFace-E--VAds--R1--Qwen2.5VL-yellow)](https://huggingface.co/TaobaoTmall-AlgorithmProducts/E-VAds-R1-Qwen2.5VL)
 [![Model](https://img.shields.io/badge/🤗%20HuggingFace-E--VAds--R1--Qwen3VL-yellow)](https://huggingface.co/TaobaoTmall-AlgorithmProducts/E-VAds-R1-Qwen3VL)
 
@@ -275,11 +276,14 @@ Average Score (R2): 0.450
 If you find E-VAds useful for your research, please cite our paper:
 
 ```bibtex
-@article{liu2026evads,
-  title={E-VAds: An E-commerce Short Videos Understanding Benchmark for MLLMs},
-  author={Liu, Xiang and Hu, Yiman and Wu, Liang and others},
-  journal={arXiv preprint arXiv:2602.08355},
-  year={2026}
+@misc{liu2026evadsecommerceshortvideos,
+      title={E-VAds: An E-commerce Short Videos Understanding Benchmark for MLLMs}, 
+      author={Xianjie Liu and Yiman Hu and Liang Wu and Ping Hu and Yixiong Zou and Jian Xu and Bo Zheng},
+      year={2026},
+      eprint={2602.08355},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2602.08355}, 
 }
 ```
 

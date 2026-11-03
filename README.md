@@ -53,6 +53,16 @@
 
 E-VAds evaluates models across **two dimensions** with **five tasks**:
 
+All three annotation files (`annotations/EVAds_SFT.parquet`, `annotations/EVAds_RL.parquet`, and `annotations/EVAds_TEST.parquet`) include a top-level string column, `ques_categories`, containing the task category for each question. Use this column to group samples for per-task evaluation. It describes the question's task type; product domains are described separately under **Product Categories** below. The question identifier is stored in `extra_info.id`.
+
+| `ques_categories` value | Task |
+| --- | --- |
+| `Perception` | BP: Basic Perception |
+| `Cross-Modal` | CM: Cross-Modal Detection |
+| `Marketing-Logic` | ML: Marketing Logic |
+| `Audience-Insight` | CI: Consumer Insight |
+| `Compliance` | RC: Regulatory Compliance |
+
 #### **Dimension 1: Perception**
 
 | Task                          | Description                                                  | Key Focus                                           |

@@ -53,6 +53,16 @@
 
 E-VAds 通过**两大维度**评估模型，包含**五个任务**：
 
+三份标注文件（`annotations/EVAds_SFT.parquet`、`annotations/EVAds_RL.parquet` 和 `annotations/EVAds_TEST.parquet`）均包含顶层字符串字段 `ques_categories`，记录每条问题的任务类别，可用于按任务分组评估。该字段表示问题的任务类型；商品领域见下方的**产品类别**。问题标识存放在 `extra_info.id` 中。
+
+| `ques_categories` 取值 | 任务 |
+| --- | --- |
+| `Perception` | BP：基础感知 |
+| `Cross-Modal` | CM：跨模态检测 |
+| `Marketing-Logic` | ML：营销逻辑 |
+| `Audience-Insight` | CI：消费者洞察 |
+| `Compliance` | RC：合规性 |
+
 #### **维度1：感知能力**
 
 | 任务 | 描述 | 重点关注 |
